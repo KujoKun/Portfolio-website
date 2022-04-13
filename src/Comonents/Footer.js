@@ -35,16 +35,16 @@ const Footer = () => {
 
       <div className="footer--socials">
         <a href="https://www.facebook.com/JonathanElf97">
-          <FaFacebook />
+          <FaFacebook alt="Facebook icon" aria-label="Facebook icon" />
         </a>
         <a href="https://twitter.com/elf_jonathan">
-          <FaTwitter />
+          <FaTwitter alt="Twitter icon" aria-label="Twitter icon" />
         </a>
         <a href="https://www.linkedin.com/in/jonathan-elf/">
-          <BsLinkedin />
+          <BsLinkedin alt="LinkedIn icon" aria-label="LinkedIn icon" />
         </a>
         <a href="https://github.com/KujoKun">
-          <FaGithub />
+          <FaGithub alt="Github icon" aria-label="Github icon" />
         </a>
       </div>
       <div className="footer--copyright">

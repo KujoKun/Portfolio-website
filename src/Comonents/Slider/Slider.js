@@ -39,7 +39,7 @@ export default function Slider({ testimonialData: data }) {
           >
             <article className="testimonial">
               <div className="client--avatar">
-                <img src={avatar} alt={name} />
+                <img loading="lazy" src={avatar} alt={name} />
               </div>
               <h5 className="client--name">{name}</h5>
               <small className="client--review">{review}</small>
@@ -47,6 +47,7 @@ export default function Slider({ testimonialData: data }) {
           </div>
         );
       })}
+
       <BtnSlider moveSlide={nextSlide} direction={"next"} />
       <BtnSlider moveSlide={prevSlide} direction={"prev"} />
 

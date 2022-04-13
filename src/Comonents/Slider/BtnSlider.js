@@ -10,7 +10,11 @@ export default function BtnSlider({ direction, moveSlide }) {
       onClick={moveSlide}
       className={direction === "next" ? "btn-slide next" : "btn-slide prev"}
     >
-      <img alt="no" src={direction === "next" ? rightArrow : leftArrow} />
+      <img
+        loading="lazy"
+        alt="no"
+        src={direction === "next" ? rightArrow : leftArrow}
+      />
     </button>
   );
 }

@@ -15,35 +15,47 @@ const Nav = () => {
         onClick={() => setActiveNav("#")}
         className={activeNav === "#" ? "active" : ""}
       >
-        <AiOutlineHome />
+        <AiOutlineHome rel="Home icon" aria-label="Home icon" />
       </a>
       <a
         href="#about"
         onClick={() => setActiveNav("#about")}
         className={activeNav === "#about" ? "active" : ""}
       >
-        <AiOutlineUser />
+        <AiOutlineUser
+          alt="About section icon"
+          aria-label="About section icon"
+        />
       </a>
       <a
         href="#experience"
         onClick={() => setActiveNav("#experience")}
         className={activeNav === "#experience" ? "active" : ""}
       >
-        <BiBook />
+        <BiBook
+          alt="Experience section icon"
+          aria-label="Experience section icon"
+        />
       </a>
       <a
         href="#services"
         onClick={() => setActiveNav("#services")}
         className={activeNav === "#services" ? "active" : ""}
       >
-        <RiServiceLine />
+        <RiServiceLine
+          alt="Service section icon"
+          aria-label="Serice section icon"
+        />
       </a>
       <a
         href="#contact"
         onClick={() => setActiveNav("#contact")}
         className={activeNav === "#contact" ? "active" : ""}
       >
-        <BiMessageRoundedDots />
+        <BiMessageRoundedDots
+          alt="Contact section icon"
+          aria-label="Contact section icon"
+        />
       </a>
     </nav>
   );

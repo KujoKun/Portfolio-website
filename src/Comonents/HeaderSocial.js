@@ -10,10 +10,10 @@ const HeaderSocial = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <BsLinkedin />
+        <BsLinkedin alt="LinkedIn icon" aria-label="LinkedIn icon" />
       </a>
       <a href="https://github.com/KujoKun" target="_blank" rel="noreferrer">
-        <FaGithub />
+        <FaGithub alt="GitHub icon" aria-label="Github icon" />
       </a>
     </div>
   );

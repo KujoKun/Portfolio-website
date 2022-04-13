@@ -15,6 +15,7 @@ const About = () => {
         <div className="about--me">
           <div className="about--me-img">
             <img
+              loading="lazy"
               alt="Jonathan elf with background from ontop of a hill"
               src={ME}
             />
