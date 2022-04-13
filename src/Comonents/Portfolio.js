@@ -38,7 +38,6 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
         {data.map((portfolio) => {
-          console.log(portfolio);
           return (
             <article key={portfolio.id} className="portfolio--item">
               <div className="portfolio--item-image">
