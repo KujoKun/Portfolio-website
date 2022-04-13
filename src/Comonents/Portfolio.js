@@ -36,7 +36,7 @@ const Portfolio = () => {
     <section id="portfolio">
       <h5>My recent work</h5>
       <h2>Portfolio</h2>
-      <div className="container portfolio__container">
+      <div className="container portfolio--container">
         {data.map((portfolio) => {
           return (
             <article key={portfolio.id} className="portfolio--item">

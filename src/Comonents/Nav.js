@@ -9,8 +9,9 @@ const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
   return (
     <nav>
+      {/*  eslint-disable-next-line  */}
       <a
-        href="#CHANGEME"
+        href="#"
         onClick={() => setActiveNav("#")}
         className={activeNav === "#" ? "active" : ""}
       >

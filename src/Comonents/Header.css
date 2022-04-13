@@ -1,10 +1,10 @@
 header {
   height: 100vh;
-  padding-top: 7rem;
+  padding-top: 3rem;
   overflow: hidden;
 }
 
-.header__container {
+.header--container {
   text-align: center;
   height: 100%;
   position: relative;
@@ -20,7 +20,7 @@ header {
 }
 /* **********************************Socials******************************** */
 
-.header__socials {
+.header--socials {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,7 +30,7 @@ header {
   bottom: 3rem;
 }
 
-.header__socials::after {
+.header--socials::after {
   content: "";
   width: 1px;
   height: 2rem;
@@ -49,7 +49,7 @@ header {
   padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 /* **********************************Scroll btn******************************** */
-.scroll__down {
+.scroll--down {
   position: absolute;
   right: -1.2rem;
   bottom: 5rem;
@@ -68,8 +68,8 @@ header {
   header {
     height: 100vh;
   }
-  .header__socials,
-  .scroll__down {
+  .header--socials,
+  .scroll--down {
     display: none;
   }
 }
