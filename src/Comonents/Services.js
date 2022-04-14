@@ -14,31 +14,39 @@ const Services = () => {
           <ul className="service--list">
             <li>
               <BiCheck className="service--list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>
+                Typography - making something legible, readable & appealing.
+              </p>
             </li>
             <li>
               <BiCheck className="service--list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>
+                Colors - Contrasts & tints, matching to website personality.
+              </p>
             </li>
             <li>
               <BiCheck className="service--list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Images - Product photos, storytelling photos & use cases.</p>
             </li>
             <li>
               <BiCheck className="service--list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>
+                Icons - SVG format, shapes & context, product feature blocks.
+              </p>
             </li>
             <li>
               <BiCheck className="service--list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Shadows - Small doses of shadows, drawing attention.</p>
             </li>
             <li>
               <BiCheck className="service--list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>
+                Border-radius - Matching with typefaces, use cases on elements.
+              </p>
             </li>
             <li>
               <BiCheck className="service--list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>UX - CTAs, fast animations, offer feedback on actions.</p>
             </li>
           </ul>
         </article>
@@ -50,31 +58,35 @@ const Services = () => {
           <ul className="service--list">
             <li>
               <BiCheck className="service--list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>
+                Utilizing JavaScript to make interactive behaviour to websites.
+              </p>
             </li>
             <li>
               <BiCheck className="service--list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Using JavaScript frameworks to create SPAs & robust UIs.</p>
             </li>
             <li>
               <BiCheck className="service--list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Responsive webdesgin, mobile first/desktop first design.</p>
             </li>
             <li>
               <BiCheck className="service--list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Object-Oriented/functional programming with JavaScript.</p>
             </li>
             <li>
               <BiCheck className="service--list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Working with APIs & external libraries. </p>
             </li>
             <li>
               <BiCheck className="service--list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>
+                Using Git for version controll & Github repos for deployment.
+              </p>
             </li>
             <li>
               <BiCheck className="service--list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Conditionally rendering components & rendering lists.</p>
             </li>
           </ul>
         </article>
@@ -86,31 +98,38 @@ const Services = () => {
           <ul className="service--list">
             <li>
               <BiCheck className="service--list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Creating a website from scratch without any libraries.</p>
             </li>
             <li>
               <BiCheck className="service--list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Utilizing the MVC design pattern for websites.</p>
             </li>
             <li>
               <BiCheck className="service--list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>
+                Taking original images/ill&shy;ustrations & showcasing them.
+              </p>
             </li>
             <li>
               <BiCheck className="service--list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>
+                Combining components to layouts using common layout patterns
+              </p>
             </li>
             <li>
               <BiCheck className="service--list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Using common elements & components to convey the info.</p>
             </li>
             <li>
               <BiCheck className="service--list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>
+                Creating testimonials, call-to-action sections, highlight
+                sections.
+              </p>
             </li>
             <li>
               <BiCheck className="service--list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Using whitespaces strategically to emphasize elements.</p>
             </li>
           </ul>
         </article>

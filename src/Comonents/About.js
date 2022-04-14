@@ -5,7 +5,7 @@ import ME from "../assets/me-about.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
-
+import Heart from "../assets/heart.svg";
 const About = () => {
   return (
     <section id="about">
@@ -26,24 +26,26 @@ const About = () => {
             <article className="about--card">
               <FaAward className="about--icon" />
               <h5>Experience</h5>
-              <small>1 Year</small>
+              <small>2 Years</small>
             </article>
             <article className="about--card">
               <FiUsers className="about--icon" />
-              <h5>Clients</h5>
-              <small>200+ World Wide</small>
+              <h5>Courses</h5>
+              <small>5 courses</small>
             </article>
             <article className="about--card">
               <VscFolderLibrary className="about--icon" />
               <h5>Projects</h5>
-              <small>10+ Big Projects</small>
+              <small>10+ Projects</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique
-            reiciendis, asperiores quae nulla voluptate ipsam cum tempora
-            facilis expedita quis dolores recusandae voluptatibus accusantium
-            nam sed, sunt libero alias veniam?
+            I started learning web development at the start of the pandemic and
+            I have loved it ever since. I started of with JavaScript as opposed
+            to html/css to see if I would enojy it, and I absolutely loved
+            Javascript!
+            <br /> I love learning new concepts and new tooling and can't wait
+            to start my proffesional career within the industry.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's talk
