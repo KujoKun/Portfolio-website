@@ -5,7 +5,6 @@ import ME from "../assets/me-about.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
-import Heart from "../assets/heart.svg";
 const About = () => {
   return (
     <section id="about">

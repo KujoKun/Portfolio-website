@@ -1,8 +1,8 @@
 import React from "react";
 import "./Portfolio.css";
-import IMG1 from "../assets/portfolio1.jpg";
-import IMG2 from "../assets/portfolio2.jpg";
-import IMG3 from "../assets/portfolio3.jpg";
+import IMG1 from "../assets/ytapp.png";
+import IMG2 from "../assets/photoapp.png";
+import IMG3 from "../assets/widgetapp.png";
 // import IMG4 from "../assets/portfolio4.jpg";
 // import IMG5 from "../assets/portfolio5.png";
 // import IMG6 from "../assets/portfolio6.jpg";
@@ -11,23 +11,23 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "CHANGEME",
-    github: "https://github.com/KujoKun/CHANGEME",
-    demo: "https://github.com/KujoKun/CHANGEME",
+    title: "Youtube player",
+    github: "https://github.com/KujoKun/yt-app",
+    demo: "https://yt-app-eta.vercel.app/",
   },
   {
     id: 2,
     image: IMG2,
-    title: "CHANGEME",
-    github: "https://github.com/KujoKun/CHANGEME",
-    demo: "https://github.com/KujoKun/CHANGEME",
+    title: "Picture app with searchbar",
+    github: "https://github.com/KujoKun/Small-pictures-app-with-searchbar",
+    demo: "https://pictures-app-tau.vercel.app/",
   },
   {
     id: 3,
     image: IMG3,
-    title: "CHANGEME",
-    github: "https://github.com/KujoKun/CHANGEME",
-    demo: "https://github.com/KujoKun/CHANGEME",
+    title: "Widgets",
+    github: "https://github.com/KujoKun/widgets",
+    demo: "https://widgets-xi-smoky.vercel.app/",
   },
 ];
 
@@ -49,7 +49,12 @@ const Portfolio = () => {
               </div>
               <h3>{portfolio.title}</h3>
               <div className="portfolio--item-cta">
-                <a href={portfolio.github} className="btn">
+                <a
+                  href={portfolio.github}
+                  className="btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Github
                 </a>
                 <a
