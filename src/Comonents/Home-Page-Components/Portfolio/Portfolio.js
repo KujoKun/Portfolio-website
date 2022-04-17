@@ -1,11 +1,9 @@
 import React from "react";
 import "./Portfolio.css";
-import IMG1 from "../assets/ytapp.png";
-import IMG2 from "../assets/photoapp.png";
-import IMG3 from "../assets/widgetapp.png";
-// import IMG4 from "../assets/portfolio4.jpg";
-// import IMG5 from "../assets/portfolio5.png";
-// import IMG6 from "../assets/portfolio6.jpg";
+import IMG1 from "assets/ytapp.png";
+import IMG2 from "assets/photoapp.png";
+import IMG3 from "assets/widgetapp.png";
+import IMG4 from "assets/notesapp.png";
 
 const data = [
   {
@@ -28,6 +26,13 @@ const data = [
     title: "Widgets",
     github: "https://github.com/KujoKun/widgets",
     demo: "https://widgets-xi-smoky.vercel.app/",
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: "Notes",
+    github: "https://github.com/KujoKun/notes",
+    demo: "https://notes-olive-two.vercel.app/",
   },
 ];
 
