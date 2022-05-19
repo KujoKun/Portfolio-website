@@ -14,7 +14,7 @@ const About = () => {
           <div className="about--me-img">
             <img
               loading="lazy"
-              alt="Jonathan elf with background from ontop of a hill"
+              alt="Jonathan elf with background from on top of a hill"
               src={ME}
             />
           </div>
@@ -39,11 +39,11 @@ const About = () => {
           </div>
           <p>
             I started learning web development at the start of the pandemic and
-            I have loved it ever since. I started of with JavaScript as opposed
-            to html/css to see if I would enojy it, and I absolutely loved
+            I have loved it ever since. I started with JavaScript as opposed
+            to html/css to see if I would enjoy it, and I absolutely loved
             Javascript!
             <br /> I love learning new concepts and new tooling and can't wait
-            to start my proffesional career within the industry.
+            to start my professional career within the industry.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's talk

@@ -51,7 +51,7 @@ const Nav = () => {
       >
         <RiServiceLine
           alt="Service section icon"
-          aria-label="Serice section icon"
+          aria-label="Service section icon"
         />
       </Link>
       <Link

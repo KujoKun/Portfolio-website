@@ -59,7 +59,7 @@ const Services = () => {
             <li>
               <BiCheck className="service--list-icon" />
               <p>
-                Utilizing JavaScript to make interactive behaviour to websites.
+                Utilizing JavaScript to make interactive behavior to websites.
               </p>
             </li>
             <li>
@@ -68,7 +68,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className="service--list-icon" />
-              <p>Responsive webdesgin, mobile first/desktop first design.</p>
+              <p>Responsive web design, mobile first/desktop first design.</p>
             </li>
             <li>
               <BiCheck className="service--list-icon" />
@@ -81,7 +81,7 @@ const Services = () => {
             <li>
               <BiCheck className="service--list-icon" />
               <p>
-                Using Git for version controll & Github repos for deployment.
+                Using Git for version control & Github repos for deployment.
               </p>
             </li>
             <li>
@@ -129,7 +129,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className="service--list-icon" />
-              <p>Using whitespaces strategically to emphasize elements.</p>
+              <p>Using whitespace strategically to emphasize elements.</p>
             </li>
           </ul>
         </article>
